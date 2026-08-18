@@ -18,7 +18,7 @@ Find engineers who have built RAG systems, ranked by repository.
 
 ## Architecture
 
-**Build knowledge base** — offline, run on demand.
+**Build knowledge base**
 
 ```mermaid
 flowchart LR
@@ -44,7 +44,7 @@ flowchart LR
   D4 --> PG[(PostgreSQL + pgvector)]
 ```
 
-**User search** — online, one request.
+**User search**
 
 ```mermaid
 flowchart LR
