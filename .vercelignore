@@ -1,0 +1,18 @@
+# Frontend is a separate Vercel project — keep it out of the backend bundle
+app/
+
+# Local Python artifacts
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Not needed at runtime
+tests/
+docs/
+docker/
+Dockerfile.backend
+docker-compose.yml
+Makefile
+*.md

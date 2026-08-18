@@ -30,6 +30,9 @@ rag-atlas-developers = "developers.cli:app"
 rag-atlas-evaluate = "evaluation.run:app"
 rag-atlas-api = "search.api:run"
 
+[tool.vercel]
+entrypoint = "search.api:app"
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["core*", "config*", "crawler*", "knowledge*", "developers*", "search*", "evaluation*"]

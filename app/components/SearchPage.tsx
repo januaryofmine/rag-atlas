@@ -98,7 +98,7 @@ export function SearchPage() {
           onChange={(event) => setDescription(event.target.value)}
         />
 
-        <p className="label">Optional RAG type soft boost</p>
+        <p className="label">Filter by RAG types</p>
         <div className="chips">
           {RAG_TYPES.map(([value, label]) => (
             <button
