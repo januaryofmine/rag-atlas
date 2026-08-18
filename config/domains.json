@@ -1,0 +1,8 @@
+{
+  "LEGAL": ["legal", "law", "contract", "case law", "attorney"],
+  "HEALTHCARE": ["medical", "healthcare", "clinical", "biomedical", "patient"],
+  "ECOMMERCE": ["e-commerce", "ecommerce", "product search", "shopping", "catalog"],
+  "ENTERPRISE": ["enterprise", "internal docs", "company knowledge", "knowledge base", "customer support"],
+  "DEVELOPER_TOOLS": ["codebase", "developer", "coding", "repository", "source code"],
+  "RESEARCH": ["research", "scientific", "paper", "literature", "academic"]
+}

@@ -1,0 +1,26 @@
+{
+  "explicit_rag_patterns": [
+    "retrieval augmented generation",
+    "retrieval-augmented generation",
+    "retrieval augmented",
+    "rag"
+  ],
+  "component_terms": [
+    "retriever",
+    "reranker",
+    "re-ranking",
+    "vector search",
+    "semantic search",
+    "embedding",
+    "vector database",
+    "context retrieval"
+  ],
+  "weights": {
+    "explicit_rag": 0.5,
+    "rag_type": 0.2,
+    "rag_topic": 0.15,
+    "component_hit": 0.05,
+    "max_component_hits": 3
+  },
+  "component_min_hits": 2
+}

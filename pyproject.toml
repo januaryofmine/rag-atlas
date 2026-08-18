@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-atlas"
+version = "0.2.0"
+description = "RAG repository to engineer search MVP"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1.0",
+  "httpx>=0.27,<1.0",
+  "pydantic>=2.9,<3.0",
+  "pydantic-settings>=2.6,<3.0",
+  "psycopg[binary]>=3.2,<4.0",
+  "sqlalchemy>=2.0,<3.0",
+  "typer>=0.12,<1.0",
+  "uvicorn[standard]>=0.30,<1.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<9.0"]
+semantic = ["sentence-transformers>=3.3,<4.0"]
+
+[project.scripts]
+rag-atlas-db = "core.db_cli:app"
+rag-atlas-crawler = "crawler.cli:app"
+rag-atlas-knowledge = "knowledge.cli:app"
+rag-atlas-developers = "developers.cli:app"
+rag-atlas-evaluate = "evaluation.run:app"
+rag-atlas-api = "search.api:run"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["core*", "config*", "crawler*", "knowledge*", "developers*", "search*", "evaluation*"]
+exclude = ["tests*", "app*"]
+
+[tool.setuptools.package-data]
+config = ["*.json"]
+"crawler.config" = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

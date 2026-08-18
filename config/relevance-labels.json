@@ -1,0 +1,5 @@
+{
+  "RAG": "Repository directly implements, demonstrates, or is explicitly about RAG.",
+  "RAG_COMPONENT": "Repository provides retrieval/reranking components with enough RAG-adjacent evidence.",
+  "NOT_RAG": "Current public evidence is insufficient for the RAG Atlas scope."
+}

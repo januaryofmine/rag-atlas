@@ -1,0 +1,24 @@
+# Secrets — never bake into an image layer
+.env
+.env.*
+!.env.example
+
+# Local Python artifacts
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Frontend build artifacts (backend image does not need them)
+app/node_modules/
+app/.next/
+
+# VCS / editor / OS
+.git/
+.gitignore
+.DS_Store
+
+# Docs are not needed at runtime
+docs/
+*.md

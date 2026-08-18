@@ -1,0 +1,16 @@
+[
+  {
+    "id": "graph-rag-001",
+    "query": "knowledge graph based RAG for complex document questions",
+    "rag_types": ["GRAPH_RAG"],
+    "relevant_repos": ["microsoft/graphrag"],
+    "relevant_developers": []
+  },
+  {
+    "id": "document-qa-001",
+    "query": "question answering over internal company documents",
+    "rag_types": [],
+    "relevant_repos": [],
+    "relevant_developers": []
+  }
+]

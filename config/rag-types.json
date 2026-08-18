@@ -1,0 +1,29 @@
+{
+  "GRAPH_RAG": [
+    "graphrag",
+    "graph rag",
+    "knowledge graph rag",
+    "graph retrieval"
+  ],
+  "AGENTIC_RAG": [
+    "agentic rag",
+    "agentic retrieval",
+    "retrieval agent",
+    "rag agent"
+  ],
+  "SELF_RAG": ["self-rag", "self rag"],
+  "CORRECTIVE_RAG": ["corrective rag", "crag", "corrective retrieval"],
+  "HYBRID_RETRIEVAL": [
+    "hybrid retrieval",
+    "hybrid search",
+    "bm25 and vector",
+    "dense and sparse",
+    "dense sparse"
+  ],
+  "MULTIMODAL_RAG": [
+    "multimodal rag",
+    "multi-modal rag",
+    "image rag",
+    "vision rag"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "CUSTOMER_SUPPORT": ["customer support", "support assistant", "help desk", "helpdesk", "customer service"],
+  "LEGAL_REVIEW": ["legal", "contract review", "contract analysis", "case law", "legal document"],
+  "MEDICAL_LITERATURE": ["medical literature", "clinical", "biomedical", "healthcare question", "medical question"],
+  "ECOMMERCE_SEARCH": ["e-commerce", "ecommerce", "product search", "shopping search", "product recommendation"],
+  "DOCUMENT_QA": ["document qa", "document q&a", "question answering", "chat with pdf", "chat with documents", "knowledge base assistant"],
+  "CODE_ASSISTANT": ["code assistant", "codebase qa", "repository qa", "developer assistant", "coding assistant"],
+  "RESEARCH_ASSISTANT": ["research assistant", "literature review", "paper search", "scientific literature"]
+}
